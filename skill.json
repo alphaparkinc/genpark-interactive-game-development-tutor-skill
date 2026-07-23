@@ -1,0 +1,31 @@
+{
+  "name": "genpark-interactive-game-development-tutor-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - AI-guided interactive game physics & code tutorial tutor for game creators.",
+  "author": "genpark",
+  "category": "creative",
+  "tags": [
+    "game-dev",
+    "tutor",
+    "physics-engine",
+    "interactive-learning"
+  ],
+  "inputs": {
+    "game_genre": {
+      "type": "string"
+    },
+    "user_level": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "lesson_plan": {
+      "type": "array"
+    },
+    "starter_code": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
